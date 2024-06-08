@@ -1,0 +1,53 @@
+.ClientSectionWrapper{
+    .clientMain{
+        position: relative;
+        overflow: hidden;
+        padding: 90px;
+        .left-arrow,.right-arrow{
+            position: absolute;
+            cursor: pointer;
+        }
+        .left-arrow{
+            left: 3%;
+            top: 45%;
+            transform: rotate(180deg);
+        }
+        .right-arrow{
+            right: 3%;
+            top: 45%;
+        }
+        .left-arrow img,.right-arrow img{
+            width: 30px;
+        }
+        .item-card{
+            width: 214px;
+            height: 110px;
+            border: 1px solid rgba(0, 0, 0, 0.233);
+            margin: auto;
+            overflow: hidden;
+            display: grid;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    @media(max-width:576px){
+        .item-card{
+            width: 170px !important;
+            height:90px !important;
+        }
+    }
+    @media(min-width:576px) and (max-width:768px){
+        .item-card{
+            width: 170px !important;
+            height:90px !important;
+        }
+    }
+    @media(min-width:769px) and (max-width:991px){
+        .item-card{
+            width: 170px !important;
+            height:90px !important;
+        }
+    }
+}

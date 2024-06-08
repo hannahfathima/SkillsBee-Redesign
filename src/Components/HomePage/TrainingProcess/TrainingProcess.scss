@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Saira+Stencil+One&display=swap');
+
+.trainingProcesMainWrapper {
+    .trainingProces {
+        overflow: hidden;
+        padding: 50px 140px;
+        width: 100%;
+        // height: 600px;
+        background: linear-gradient(#EDA15A, #E57811);
+
+        h1 {
+            font-family: "Jost", sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+
+        // --------------------collapse-------------------
+        .TrainngProcess {
+            width: 561px;
+            height: 70px;
+            padding: 0px 15px 0px 15px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: .2s;
+        }
+        .TrainngProcess:hover{
+            background-color: rgb(36, 36, 36);
+        }
+        .selectBatch{
+            background-color: white;
+            color: #593384;
+        }
+        .selectBatch:hover{
+            background-color: rgb(224, 224, 224);
+            color: #593384;
+        }
+
+        .card-body {
+            width: 561px;
+            margin-bottom: 10px;
+        }
+
+        .collapse-main {
+            .training-items {
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 20px;
+                text-align: left;
+            }
+            .arrow-down{
+                font-size: 30px;
+            }
+
+            span {
+                border: 1px solid white;
+                padding: 6px 17px 7px 17px;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+            .collapse-2{
+                border: 1px solid #593384;
+                padding: 6px 15px 7px 15px;
+            }
+            .collapse-4{
+                padding: 6px 14px 7px 14px;
+            }
+        }
+    }
+    @media(max-width:768px){
+        h1{
+            font-size: 30px !important;
+        }
+        .TrainngProcess {
+            height: 50px !important;
+        }
+        .trainingProces {
+            padding: 30px 30px !important;
+        }
+        .training-items{
+            font-size: 12px !important;
+            span{
+                padding: 9px  13px !important;
+            }
+        }
+        .d-inline-flex{
+           width: 100%;
+        }
+    }
+    @media(min-width:769px) and (max-width:991px){
+        .trainingProces {
+            padding: 30px 30px !important;
+        }
+        .d-inline-flex{
+           width: 90% !important;
+        }
+    }
+}

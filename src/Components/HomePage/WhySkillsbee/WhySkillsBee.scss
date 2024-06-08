@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Saira+Stencil+One&display=swap');
+.Why-SkillsBee-Mail-Wrapper{
+    .why-skills-bee{
+        padding: 50px 140px;
+        width: 100%;
+        overflow: hidden;
+        // height: 600px;
+        background: linear-gradient(#7241A9,#2D1A43);
+        .heading{
+            h1{
+                font-family: "Jost", sans-serif;
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 50px;
+                text-align: center;
+                color: white;
+                margin-bottom: 50px;
+            }
+        }
+     
+        .why-skillsbee-card{
+            width: 100%;
+            // height: 200px;
+            background-color: #7241A9;
+            margin-bottom: 2rem;
+            border: 1px solid #EDA15A;
+            border-radius: 40px;
+            padding: 20px;
+            display: grid;
+            align-items: center;
+            .card-head{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    width: 70px;
+                    border-radius: 10px;
+                    // box-shadow: 0px 0px 11px 0px #eda15a66;
+                }
+                .why-skill-heading{
+                    font-family: Inter;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 23px;
+                    text-align: left;
+                    color: #EDA15A;
+                }
+            }
+            .why-skills-bee-para{
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 18px;
+                padding-top: 10px;
+                color: white;
+                // background-color: yellow;
+                text-align: justify;
+            }
+        }
+        .white{
+            border: 1px solid #ffff;
+        }
+    }
+    @media(min-width:300px) and (max-width:575px){
+        h1{
+            font-size: 30px !important;
+        }
+        .why-skillsbee-card{
+            padding: 20px !important;
+        }
+        .why-skills-bee-para{
+            font-size: 12px !important;
+        }
+    }
+    @media(min-width:300px) and (max-width:1400px){
+        .why-skills-bee{
+            padding: 30px 30px;
+        }
+    }
+}

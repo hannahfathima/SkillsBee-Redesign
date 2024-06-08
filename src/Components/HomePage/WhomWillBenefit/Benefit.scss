@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100..900&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Stencil+One&family=Salsa&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.benefit-body{
+    .benefit-sub-body{
+        overflow: hidden;
+        width: 100%;
+        // height: 500px;
+        padding: 100px 90px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.426),rgba(0, 0, 0, 0.483)),url(/Images/background.jpg);
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+                .befefit-row{
+                  height: 108px;
+                //   background-color: aqua;
+
+
+                  .benefit-card{
+                    width: 100%;
+                    height: 108px;
+                    display: flex;
+                    align-items: center !important;
+                    flex-direction: column;
+                    justify-content: center !important;
+               
+                    margin: auto !important;
+                    background-color: rgba(255, 255, 255, 0.671);
+                         
+
+                    .benefit-column-heading{
+                    padding: 0px !important;
+                    margin: 0px !important;
+                        p{
+                            font-family: "Joti One";
+                            font-size: 20px;
+                                 color: #333333;
+                            font-weight: 400;
+                            line-height: 20px;
+                            letter-spacing: 0.05em;
+                            text-align: left;
+
+                        }
+                    }
+
+                   img{
+                    width: 50px;
+                    
+                   }
+
+                  }
+                }
+
+               .benefit-heading{
+                width: 100%;
+                text-align: center !important;
+                padding-bottom: 80px;
+
+                p{
+                    font-family: "jost";
+                    font-size: 50px;
+                    font-weight: 600;
+                    line-height: 55px;
+                    color: white;
+                  
+
+                }
+               }
+
+
+    }
+
+
+
+    @media screen and (min-width: 300px) and (max-width: 575px) {
+        .benefit-sub-body{
+      
+            height: 670px !important;
+            padding: 20px 10px !important;
+      
+                    .befefit-row{
+               
+                       
+    
+                      .benefit-columns{
+                       margin-bottom: 20px !important;
+                        
+    
+                        .benefit-column-heading{
+                     
+                            p{
+                              
+                                font-size: 20px;
+                            
+    
+                            }
+                        }
+    
+                       img{
+                        width: 50px;
+                        
+                       }
+    
+                      }
+                    }
+    
+                   .benefit-heading{
+                    padding-bottom: 10px;
+    
+                    p{
+                      
+                        font-size: 37px;
+                    
+                      
+    
+                    }
+                   }
+    
+    
+        }
+    }
+
+
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        .benefit-sub-body{
+      
+            height: 370px !important;
+            padding: 20px 10px !important;
+      
+                    .befefit-row{
+               
+                       
+    
+                      .benefit-columns{
+                       margin-bottom: 20px !important;
+                        
+    
+                        .benefit-column-heading{
+                     
+                            p{
+                              
+                                font-size: 20px;
+                            
+    
+                            }
+                        }
+    
+                       img{
+                        width: 50px;
+                        
+                       }
+    
+                      }
+                    }
+    
+                   .benefit-heading{
+                    padding-bottom: 10px;
+    
+                    p{
+                      
+                        font-size: 37px;
+                    
+                      
+    
+                    }
+                   }
+    
+    
+        }
+    }
+
+
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        .benefit-sub-body{
+      
+            height: 370px !important;
+            padding: 20px 10px !important;
+      
+                    .befefit-row{
+               
+                       
+    
+                      .benefit-columns{
+                       margin-bottom: 20px !important;
+                        
+    
+                        .benefit-column-heading{
+                     
+                            p{
+                              
+                                font-size: 20px;
+                            
+    
+                            }
+                        }
+    
+                       img{
+                        width: 50px;
+                        
+                       }
+    
+                      }
+                    }
+    
+                   .benefit-heading{
+                    padding-bottom: 10px;
+    
+                    p{
+                      
+                        font-size: 37px;
+                    
+                      
+    
+                    }
+                   }
+    
+    
+        }
+    }
+
+    
+    @media screen and (min-width: 993px) and (max-width: 1024px) {
+        .benefit-sub-body{
+      
+            height: 300px !important;
+            padding:40px 10px !important;
+      
+                    .befefit-row{
+               
+                       
+    
+                      .benefit-columns{
+                       margin-bottom: 20px !important;
+                        
+    
+                        .benefit-column-heading{
+                     
+                            p{
+                              
+                                font-size: 20px;
+                            
+    
+                            }
+                        }
+    
+                       img{
+                        width: 50px;
+                        
+                       }
+    
+                      }
+                    }
+    
+                   .benefit-heading{
+                    padding-bottom: 10px;
+    
+                    p{
+                      
+                        font-size: 37px;
+                    
+                      
+    
+                    }
+                   }
+
+                
+    
+    
+        }
+    }
+}

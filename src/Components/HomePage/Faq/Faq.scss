@@ -1,0 +1,106 @@
+.FaqMainWrapper {
+    .FaqWrapper {
+        padding: 50px 140px;
+
+        .heading {
+            font-family: jost;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 55px;
+            text-align: center;
+            color: #86868B;
+            margin-bottom: 50px;
+        }
+
+        .head-sub {
+            color: #593384;
+        }
+
+        .collapse-left,.collapse-right {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .questian {
+            // background-color: red;
+            height: 80px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #EDA15A;
+        }
+        
+
+        .faq-questian {
+            color: #86868B;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .faq-questian:hover{
+            color: #593384;
+        }
+
+        .down-angle {
+            font-size: 25px;
+        }
+
+        .faq-1 {
+            border-top: 2px solid #EDA15A;
+            border-bottom: 2px solid #EDA15A;
+        }
+        .card-body{
+            margin-top: 10px;
+        }
+    }
+    @media(max-width:576px){
+        .FaqWrapper {
+            padding: 20px;
+        }
+        .heading {
+            font-size: 30px !important;
+            line-height: 30px !important;
+        }
+        .questian {
+            // background-color: red;
+            height: 50px !important;
+        }
+        .card-body{
+            font-size: 11px !important;
+        }
+        .faq-right-1{
+            border-top: none !important;
+        }
+        .faq-questian{
+            font-size: 11px !important;
+            width: 80%;
+        }
+        .down-angle {
+            font-size: 17px !important;
+        }
+    }
+    @media (min-width:577px) and (max-width:900px){
+        .FaqWrapper {
+            padding: 20px;
+        }
+        .heading {
+            font-size: 30px !important;
+            line-height: 30px !important;
+        }
+        .questian {
+            // background-color: red;
+            height: 50px !important;
+        }
+        .card-body{
+            font-size: 11px !important;
+        }
+        .faq-questian{
+            font-size: 11px !important;
+            width: 80%;
+        }
+        .down-angle {
+            font-size: 17px !important;
+        }
+    }
+
+}

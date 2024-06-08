@@ -1,0 +1,74 @@
+.Navbar-main{
+ z-index: 9999;
+ position: sticky;
+ top: 0;
+ background-color: white;
+ 
+    .navbar{
+        .logo{
+            padding-left: 5rem;
+            img{
+                width: 80px;
+            }
+        }
+        height: 80px;
+        position: relative;
+        .nav-items{
+            display: flex;
+            gap: 30px;
+            padding-left: 6rem;
+        }
+        .NavLinkTag{
+            text-decoration: none;
+            color: black;
+            
+        }
+        .navLinks{
+            font-family: poppins;
+            transition: .3s;
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+        }
+        .active{
+           
+            margin-top: -15px;
+        }
+        .indicator {
+            width: 50px;
+            height: 50px;
+            background-color: #593384;
+            border-radius: 50%;
+            position: absolute;
+            top: 71%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+            transition: all 0.3s ease;
+          }
+          
+          .active-indicator {
+            display: flex;
+            justify-content: center;
+            align-items: center !important;
+          }
+        
+        // .active-indicator{
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center !important;
+        // }
+        .nav-icon{
+            color: white;
+            font-size: 22px;
+          
+        }
+    }
+  
+}
+@media(max-width:768px){
+    .Navbar-main{
+        display: none;
+    }
+}

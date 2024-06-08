@@ -1,0 +1,46 @@
+
+.marquee-main-body{
+       $speed: 25s;
+
+       .marquee {
+         width: 100%;
+         overflow: hidden;
+         white-space: nowrap;
+       
+       
+         
+         &__seperator { margin: 0 2rem; }
+         
+         &__item {
+           display: inline-block;
+           will-change: transform;
+           font-family: "Jost";
+           font-size: 30px;
+           font-weight: 400;
+           line-height: 30px;
+           text-align: left;
+           
+           animation: marquee $speed linear infinite;
+       
+           img{
+              width: 30px !important;
+           }
+         }
+   
+       }
+       
+       @keyframes marquee {
+           0%   { transform: translateX(0); }
+           100% { transform: translateX(-100%); }
+       }
+       
+       
+       // Styling
+       .marquee {
+         background-color:#7241A9;
+         padding: 1rem 0;
+         color: #fff;
+         padding: 40px 0px;
+       }
+       
+}

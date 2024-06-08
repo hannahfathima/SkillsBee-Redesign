@@ -1,0 +1,159 @@
+/* Mentors.scss */
+
+.MentorsMainDiv {
+    .Mentor-wrapper {
+        padding: 30px 140px;
+        background-color: #F2F2F2        ;
+
+        .heading {
+            font-family: Jost;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 55px;
+            text-align: center;
+            color: #593384;
+        }
+
+        .dscrption {
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            text-align: center;
+            color: #86868B;
+            padding-top: 1.5rem;
+        }
+
+        .carousel-wrapper {
+            padding-top: 4rem;
+
+            .mentor-card-main {
+                width: 300px;
+                margin-bottom: 3rem !important;
+                margin: auto;
+
+                .position {
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 14px;
+                    letter-spacing: 0.05em;
+                    text-align: left;
+                    color: #86868B;
+                    position: absolute;
+                    transform: rotate(-90deg);
+                    bottom: 12%;
+                    left: -9%;
+                }
+
+                .image-position {
+                    position: relative;
+
+                    .image {
+                        width: 228px;
+                        margin: auto;
+                        height: 250px;
+                        margin-top: 30px;
+                        border-radius: 15px;
+                        box-shadow: 0px 1px 19px -2px rgba(0, 0, 0, 0.229);
+                        overflow: hidden;
+                        position: relative;
+
+                        .mntr-dp {
+                            width: 100%;
+                            transition: transform 0.3s ease-in-out;
+                        }
+
+                        .icon {
+                            position: absolute;
+                            left: -50px; /* Start off-screen to the left */
+                            top: 6%;
+                            z-index: 3;
+                            width: 20px;
+                            opacity: 0;
+                            transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
+                        }
+
+                        &:hover .icon {
+                            left: 6%; /* Move to the right into view */
+                            opacity: 1;
+                        }
+
+                        &:hover .mntr-dp {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+
+                .name {
+                    width: 228px;
+                    margin: auto;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0.05em;
+                    text-align: left;
+                    color: #593384;
+                    padding-top: 1rem;
+                }
+            }
+        }
+
+        .slick-dots li button:before {
+            display: none;
+        }
+
+        .slick-dots {
+            bottom: 10px;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-dots li {
+            width: 30px;
+            margin: 0 5px;
+            list-style: none;
+        }
+
+        .slick-dots li button {
+            width: 100%;
+            height: 4px;
+            background-color: #ccc;
+            border: none;
+            padding: 0;
+        }
+
+        .slick-dots li.slick-active button {
+            background-color: #593384;
+        }
+    }
+    @media(max-width:576px){
+        .Mentor-wrapper {
+            padding: 30px;
+        }
+        .heading {
+            font-size: 30px !important;
+        }
+        .dscrption {
+            font-size: 10px !important;
+            padding-top: .2rem !important;
+        }
+    }
+    @media(min-width:577px) and (max-width:768px){
+        .Mentor-wrapper {
+            padding: 30px;
+        }
+        .heading {
+            font-size: 40px !important;
+        }
+        .dscrption {
+            font-size: 13px !important;
+            padding-top: .2rem !important;
+        }
+    }
+}

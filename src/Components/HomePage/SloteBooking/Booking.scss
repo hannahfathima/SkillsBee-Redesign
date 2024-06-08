@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100..900&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Stencil+One&family=Salsa&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.booking-main-body {
+    .booking-body {
+        width: 100%;
+     
+        overflow: hidden;
+        background-color: #593384 !important;
+        padding: 50px 90px;
+
+        .booking-heading {
+            width: 60%;
+            margin: auto !important;
+            text-align: center;
+            color: white;
+
+            h1 {
+                font-family: "jost";
+                padding-bottom: 90px;
+                font-size: 50px;
+                font-weight: 500;
+                line-height: 55px;
+                text-align: center;
+
+                span {
+                    color: #EDA15A;
+                }
+
+            }
+        }
+
+        .booking-row {
+            // background-color: red;
+            height: 400px;
+            // margin-bottom: 90px;
+             
+        
+            .odo-function-and-technics-section {
+                // background-color: #EDA15A;
+                padding-top: 130px;
+
+                .odo-function {
+                    color: rgb(255, 255, 255);
+                    font-family: "Poppins";
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: 0.02em;
+                    text-align: left;
+
+                }
+
+                .technics {
+                    text-align: right;
+                    font-family: "Poppins";
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: 0.02em;
+                    color: white;
+
+                    span {
+                        color: #EDA15A;
+                    }
+                }
+
+            }
+
+            .Learn-more-btn {
+                margin-top: 70px !important;
+
+                a {
+
+                    padding: 6px 22px;
+                    text-decoration: none;
+                    color: white;
+                    border-radius: 5px;
+                    box-shadow: 0px 4px 4px 0px #00000040;
+                    border: 1px solid #0000000a;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: center;
+                    font-family: "poppins";
+
+                }
+
+            }
+
+            .booking-card-section {
+                margin: auto !important;
+                padding: 30px;
+                width: 79%;
+                height: 400px;
+                border: 1px solid #ffffff42;
+                border-radius: 20px;
+
+
+
+                .card-information-heading-1 {
+                    width: 100%;
+
+                    p {
+                        font-family: "Poppins";
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: left;
+                        color: #EDA15A;
+                    }
+                }
+
+                .card-date-section {
+                    width: 100%;
+                    background-color: #7241A980;
+                    height: 80px;
+                    text-align: center;
+                    padding: 20px;
+                    border-left: 4px solid #7241A9;
+                    box-shadow: 0px 4px 4px 0px #00000040;
+
+                    p {
+                        font-family: "Poppins";
+                        font-size: 40px;
+                        font-weight: 500;
+                        line-height: 40px;
+                        text-align: center;
+                        color: white;
+                    }
+
+                }
+
+                .card-information {
+                    width: 100%;
+                    padding-top: 70px;
+
+                    p {
+                        text-align: center;
+                        font-family: 'Inter';
+                        font-size: 25px;
+                        font-weight: 500;
+                        color: #FFFFFF;
+                        line-height: 25px;
+                        letter-spacing: 0.03em;
+
+
+                    }
+                }
+
+                .card-btns {
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    // background-color: red;
+                    padding-top: 70px;
+                    justify-content: space-between;
+
+                    .apply-now-btn {
+                        width: 40%;
+                        height: 40px;
+                      //   background-color: red;
+                        text-align: center;
+                        padding: 9px;
+                        box-shadow: 0px 4px 4px 0px #00000040;
+                        border: 1px solid #7241A9;
+                        background-color: #7241A980 !important;
+                        border-radius: 5px;
+                        border-left: 1px solid #7241A9;
+
+                        a {
+                            text-decoration: none;
+                          
+                           
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            text-align: center;
+                            color: white;
+                            font-family: "poppins";
+                            // padding: 6px 20px !important;
+                            
+                        }
+
+                    }
+
+                    .free-democlass-btn {
+                          width: 50%;
+                          height: 40px;
+                        //   background-color: red;
+                          text-align: center;
+                          padding: 9px;
+                          box-shadow: 0px 4px 4px 0px #00000040;
+                          border: 1px solid #7241A9;
+                         
+                          border-radius: 5px;
+                          border-left: 1px solid #7241A9;
+
+                        a {
+                           
+                          
+                            text-decoration: none;
+                            font-family: "poppins";
+                            // padding: 6px 13px !important;
+                           
+                            color: #EDA15A;
+                            font-size: 19px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            text-align: center;
+
+                        }
+
+                    }
+                }
+            }
+        }
+        .first-booking-row{
+            margin-bottom: 50px !important;
+          
+        }
+    }
+
+
+ 
+
+    @media screen and (min-width: 300px) and (max-width: 575px) {
+        .booking-body {
+            height: auto !important;
+            padding: 0px !important;
+            padding-top: 50px !important;
+            padding-bottom: 30px !important;
+        }
+
+        .booking-heading {
+            width: 95% !important;
+
+            h1 {
+
+                padding-bottom: 0px !important;
+                font-size: 40px !important;
+                font-weight: 400;
+                line-height: 45px !important;
+             }
+        }
+
+        .booking-row {
+           
+            height: auto !important;
+            margin-bottom: 20px !important;
+
+            .odo-function-and-technics-section {
+                  padding-top: 50px !important;
+             .odo-function {
+                   font-size: 28px !important;
+                   text-align: center !important;
+                   line-height: 0px !important;
+                }
+
+                .technics {
+                    text-align: center !important;
+                    font-size: 28px !important;
+                  }
+
+            }
+
+            .Learn-more-btn {
+            
+          margin-top: 0px !important;
+                text-align: center !important;
+                 padding-bottom: 40px;
+
+            }
+
+            .booking-card-section {
+                width: 100% !important;
+             
+
+                .card-date-section {
+                    width: 100% !important;
+                    padding: 0 !important;
+                    padding-top: 20px !important;
+                    p{
+                        font-size: 33px !important;
+                    }
+                     }
+
+           
+                     .card-btns {
+                       // background-color: red;
+                        flex-direction: column !important;
+                        padding-top: 10px !important;
+                        margin-bottom: 10px !important;
+                        .apply-now-btn {
+                            width: 100% !important;
+                            margin-bottom: 7px !important;
+                          
+                          
+    
+                        }
+    
+                        .free-democlass-btn {
+                              width: 100% !important
+                              }
+                    }
+            }
+
+            #odo-function-and-technics-section-1{
+                    order: 1;
+            }
+
+            .card-information {
+                width: 100%;
+                padding-top: 70px;
+
+                p {
+                  
+                
+                    line-height: 35px !important;
+                  
+
+
+                }
+            }
+        }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+.booking-body {
+    height: auto !important;
+    padding: 50px 30px !important;
+  .booking-heading {
+        width: 95% !important;
+       h1{
+        padding-bottom: 0px !important;
+       }
+    }
+   .booking-row {
+        height: auto !important;
+        margin-bottom: 30px !important;
+    }
+
+    .odo-function {
+     text-align: center !important;
+    }
+    .technics{
+        text-align: center !important;
+    }
+  .Learn-more-btn {
+        margin-top: 0px !important;
+        text-align: center !important;
+        padding-bottom: 30px !important;
+       
+        a{
+            text-align: center !important;
+        }
+    }
+    #odo-function-and-technics-section-1{
+        order: 1;
+}
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .booking-body {
+        height: auto !important;
+        padding: 50px 30px !important;
+      .booking-heading {
+            width: 95% !important;
+           h1{
+            padding-bottom: 0px !important;
+           }
+        }
+       .booking-row {
+            height: auto !important;
+            margin-bottom: 30px !important;
+        }
+    
+        .odo-function {
+         text-align: center !important;
+        }
+        .technics{
+            text-align: center !important;
+        }
+      .Learn-more-btn {
+            margin-top: 0px !important;
+            text-align: center !important;
+            padding-bottom: 30px !important;
+           
+            a{
+                text-align: center !important;
+            }
+        }
+        #odo-function-and-technics-section-1{
+            order: 1;
+    }
+    }
+    
+    
+    }
+
+    @media screen and (min-width: 993px) and (max-width: 1024px) {
+        .booking-body {
+            height: auto !important;
+            padding: 50px 30px !important;
+          .booking-heading {
+                width: 95% !important;
+               h1{
+                padding-bottom: 50px !important;
+               }
+            }
+           .booking-row {
+                height: auto !important;
+                margin-bottom: 30px !important;
+            }
+        
+            .odo-function {
+             text-align: center !important;
+            }
+            .technics{
+                text-align: center !important;
+            }
+          .Learn-more-btn {
+                margin-top: 0px !important;
+                text-align: center !important;
+                padding-bottom: 30px !important;
+               
+                a{
+                    text-align: center !important;
+                }
+            }
+            .booking-card-section{
+                width: 100% !important;
+            }
+       }
+        
+        
+        }
+
+        @media screen and (min-width: 1025px) and (max-width: 1300px) {
+            .booking-body {
+                height: auto !important;
+                padding: 50px 30px !important;
+              .booking-heading {
+                    width: 95% !important;
+                   h1{
+                    padding-bottom: 50px !important;
+                   }
+                }
+               .booking-row {
+                    height: auto !important;
+                    margin-bottom: 30px !important;
+                }
+            
+                .odo-function {
+                 text-align: center !important;
+                }
+                .technics{
+                    text-align: center !important;
+                }
+              .Learn-more-btn {
+                    margin-top: 0px !important;
+                    text-align: center !important;
+                    padding-bottom: 30px !important;
+                   
+                    a{
+                        text-align: center !important;
+                    }
+                }
+                .booking-card-section{
+                    width: 100% !important;
+                }
+           }
+            
+            
+            }
+}

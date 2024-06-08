@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100..900&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Stencil+One&family=Salsa&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.program-body{
+    .program-sub-body{
+        width: 100%;
+        background-color: #EDA15A !important;
+        overflow: hidden;
+        height: 514px;
+             padding: 60px 89px;
+
+
+             .program-main-heading{
+                width: 60%;
+                margin: auto;
+                h1{
+                    font-family:"Joti One";
+                    font-size: 60px;
+                    padding-bottom: 50px;
+                  
+                    font-weight: 600;
+                    color: white;
+                    line-height: 65px;
+                    text-align: left;
+
+                }
+             }
+
+
+             .program-main-heading-in-media{
+                width: 100%;
+                margin: auto;
+                display: none;
+                h1{
+                    font-family:"Joti One";
+                    font-size: 50px !important;
+                    padding-bottom: 50px;
+                  
+                    font-weight: 600;
+                    color: white;
+                    line-height: 65px;
+                    text-align: center;
+
+                    span{
+                        color :#593384;
+                    }
+
+                }
+             }
+             .program-main-heading2{
+                width: 60%;
+                padding-top: 30px;
+                margin: auto;
+                h1{
+                    font-family:"Joti One";
+                    font-size: 60px;
+                    padding-bottom: 50px;
+                    font-weight: 600;
+                    color: #593384;
+                    line-height: 65px;
+                    text-align: end;
+                }
+             }
+               .program-cards-rows{
+                   display: flex;
+                    // background-color: aqua;
+                    height: 200px;
+                    flex-wrap: wrap;
+              
+                    gap: -10px;
+                
+
+
+                    .program-card{
+                        background-color: #eda15a00;
+                        width: 280px;
+                        margin: auto;
+                        border: 1px solid #EDEB5A;
+                       padding-top: 30px;
+                        border-radius: 75px;
+                            height: 200px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                             img{
+                                width: 50px;
+                               
+                             }
+                             .card-column-head{
+                                width: 90%;
+                                height: 28px;
+                               
+                                p{
+                                    font-family: "Inter";
+                                    font-size: 17px;
+                                    font-weight: 600;
+                                    line-height: 23px;
+                                    color: #593384;
+                                    text-align: center;
+
+                                }
+                             }
+
+                             .card-column-description{
+                                width: 90%;
+                                padding-top: 3px;
+                                p{
+                                    font-family: "Poppins";
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    color: #FFFFFF;
+
+                                }
+                             }
+
+                    }
+                    #card-2{
+                        margin-left: -60px !important;
+                    }
+                    #card-3{
+                        margin-left: -60px !important;
+                    }
+                    #card-4{
+                        margin-left: -60px !important;
+                    }
+               }
+
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 585px) {
+        .program-sub-body{
+        
+          height: auto !important;
+                 padding: 25px 10px !important;
+           .program-main-heading{
+                    width: 100%;
+                  display: none;
+                    h1{
+                       
+                        font-size: 35px !important;
+                        padding-bottom: 10px !important;
+                        text-align: center !important;
+                           }
+                 }
+                 .program-main-heading-in-media{
+                    width: 100%;
+                    margin: auto;
+                    display: block;
+                    h1{
+                        font-family:"Joti One";
+                       
+                        padding-bottom: 50px;
+                      
+                        font-weight: 600;
+                        color: white;
+                        line-height: 45px;
+                        text-align: center;
+    
+                        span{
+                            color :#593384;
+                        }
+    
+                    }
+                 }
+                 .program-main-heading2{
+                    display: none;
+                    width: 100% !important;
+                    padding-top: 30px;
+                    
+                    h1{
+                  
+                        font-size: 35px;
+                        padding-bottom: 10px;
+                        text-align: center !important;
+                     
+                       
+                    }
+                 }
+
+                 .program-main-heading-in-media{
+                    width: 100%;
+                
+                    h1{
+                       
+                        font-size: 35px !important;
+                        padding-bottom: 10px !important;
+                        text-align: center !important;
+                           }
+                 
+                 }
+                   .program-cards-rows{
+                    gap: 10px !important;
+                    height: auto !important;
+                   .program-card{
+                           
+                            width: 90%;
+                            
+                            margin: auto !important;       
+                        }
+                        #card-2{
+                            margin: auto !important;
+                            // margin-left: 0px !important;
+                        }
+                        #card-3{
+                          margin: auto !important;
+                        }
+                        #card-4{
+                          margin: auto !important;
+                        }
+                   }
+    
+        }
+    }
+
+
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        .program-sub-body{
+        
+          height: auto !important;
+                 padding: 45px 10px !important;
+           .program-main-heading{
+                    width: 60%;
+                  display: block;
+                    h1{
+                       
+                        font-size: 45px !important;
+                        padding-bottom: 30px !important;
+                        
+                        text-align: left !important;
+                           }
+                 }
+                 .program-main-heading-in-media{
+                    width: 100%;
+                    margin: auto;
+                    display: none;
+                    h1{
+                        font-family:"Joti One";
+                       
+                        padding-bottom: 50px;
+                      
+                        font-weight: 600;
+                        color: white;
+                        line-height: 45px;
+                        text-align: center;
+    
+                        span{
+                            color :#593384;
+                        }
+    
+                    }
+                 }
+                 .program-main-heading2{
+                    display: block;
+                    width: 60% !important;
+                    padding-top: 30px;
+                    
+                    h1{
+                  
+                        font-size: 45px;
+                        padding-bottom: 10px;
+                        text-align: end !important;
+                     
+                       
+                    }
+                 }
+
+     
+                   .program-cards-rows{
+                    width: 90%;
+                    margin: auto;
+                    gap: 20px !important;
+                    height: auto !important;
+                   .program-card{
+                           
+                            
+                            
+                            margin: auto !important;       
+                        }
+                        #card-2{
+                            margin: auto !important;
+                            // margin-left: 0px !important;
+                        }
+                        #card-3{
+                          margin: auto !important;
+                        }
+                        #card-4{
+                          margin: auto !important;
+                        }
+                   }
+    
+        }
+    }
+
+    
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        .program-sub-body{
+        
+            height: auto !important;
+                   padding: 45px 10px !important;
+             .program-main-heading{
+                      width: 60%;
+                    display: block;
+                      h1{
+                         
+                          font-size: 45px !important;
+                          padding-bottom: 30px !important;
+                          
+                          text-align: left !important;
+                             }
+                   }
+                   .program-main-heading-in-media{
+                      width: 100%;
+                      margin: auto;
+                      display: none;
+                      h1{
+                          font-family:"Joti One";
+                         
+                          padding-bottom: 50px;
+                        
+                          font-weight: 600;
+                          color: white;
+                          line-height: 45px;
+                          text-align: center;
+      
+                          span{
+                              color :#593384;
+                          }
+      
+                      }
+                   }
+                   .program-main-heading2{
+                      display: block;
+                      width: 60% !important;
+                      padding-top: 30px;
+                      
+                      h1{
+                    
+                          font-size: 45px;
+                          padding-bottom: 10px;
+                          text-align: end !important;
+                       
+                         
+                      }
+                   }
+  
+       
+                     .program-cards-rows{
+                      width: 90%;
+                      margin: auto;
+                      gap: 20px !important;
+                      height: auto !important;
+                     .program-card{
+                             
+                              flex-direction: column;
+                              
+                              margin: auto !important;       
+                          }
+                          #card-2{
+                              margin: auto !important;
+                              // margin-left: 0px !important;
+                          }
+                          #card-3{
+                            margin: auto !important;
+                          }
+                          #card-4{
+                            margin: auto !important;
+                          }
+                     }
+      
+          }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .program-sub-body{
+    
+        height: auto !important;
+               padding: 45px 100px !important;
+         .program-main-heading{
+                  width: 60%;
+                display: block;
+                  h1{
+                     
+                      font-size: 45px !important;
+                      padding-bottom: 30px !important;
+                      
+                      text-align: left !important;
+                         }
+               }
+               .program-main-heading-in-media{
+                  width: 100%;
+                  margin: auto;
+                  display: none;
+                  h1{
+                      font-family:"Joti One";
+                     
+                      padding-bottom: 50px;
+                    
+                      font-weight: 600;
+                      color: white;
+                      line-height: 45px;
+                      text-align: center;
+  
+                      span{
+                          color :#593384;
+                      }
+  
+                  }
+               }
+               .program-main-heading2{
+                  display: block;
+                  width: 60% !important;
+                  padding-top: 30px;
+                  
+                  h1{
+                
+                      font-size: 45px;
+                      padding-bottom: 10px;
+                      text-align: end !important;
+                   
+                     
+                  }
+               }
+
+   
+                 .program-cards-rows{
+                  width: 90%;
+                  margin: auto;
+               flex-wrap: wrap !important;
+                  gap: 20px !important;
+                  height: auto !important;
+                 .program-card{
+                
+                       
+                          margin: auto !important;       
+                      }
+                      #card-2{
+                          margin: auto !important;
+                          // margin-left: 0px !important;
+                      }
+                      #card-3{
+                        margin: auto !important;
+                      }
+                      #card-4{
+                        margin: auto !important;
+                      }
+                 }
+  
+      }
+}
+
+}
